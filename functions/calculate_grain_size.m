@@ -4,10 +4,6 @@
 
 function [volumes,radii] = calculate_grain_size(grain_map)
 
-
-    disp(size(grain_map))
-
-
     gid_list = unique(grain_map);
     num_grains = length(gid_list);
     volumes = zeros(num_grains,1);
