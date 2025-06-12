@@ -11,4 +11,4 @@ load("128x128x128_128grains.mat")
 
 [volumes, radii] = calculate_grain_size(data);
 
-hist(radii,14); % Plots the grain size distribution
+plot_GSD(radii, 14);
